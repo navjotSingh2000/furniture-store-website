@@ -1,0 +1,345 @@
+
+body{
+	
+	background-color:#f4f4f4;
+	padding:0;
+	margin:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.high-light, .current a{
+	color:#a5c41e;
+	font-weight:bold;
+}
+
+.dark{
+	padding:15px;
+	background-color:#5abb92;
+	color:#fff;
+	
+}
+
+.right-side-1{
+	margin-top: 70px;
+}
+
+.right-side-2{
+	margin-top: 33px;
+}
+
+.map{
+	margin-left: 975px;
+	margin-top: 19px;
+	margin-left: 291px;
+}
+
+
+
+header{
+	
+	background-color:#218365;
+	padding-top:30px;
+	color:#fff;
+	min-height:70px;
+	border-bottom:4px solid #bebc22;
+}
+
+header #branding{
+	float:left;
+}
+
+header nav{
+	
+	float:right;
+}
+
+header #branding h1{
+	margin:0;
+}
+
+header nav ul{
+	margin:0;
+	padding:0;
+}
+
+header li{
+	
+	float: left;
+	display:inline;
+	padding:0 20px;
+	margin-top:10px;
+}
+
+header a{
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:20px;
+}
+
+header a:hover{
+	color:#ccc;
+	font-weight:bold;
+}
+
+#showcase{
+	min-height:400px;
+	text-align:center;
+	background-image:url("../media/top_banner.jpg");
+	background-repeat:no-repeat;
+	color:#a5c41e;
+}
+
+#showcase h1{
+	margin-top:100px;
+	font-size:55px;
+}
+
+
+#showcase p{
+	font-size:20px;
+	color:#fff
+}
+
+
+#showcase_2{
+	min-height:800px;
+	text-align:center;
+	background-image:url("../media/showcase_2.jpg");
+	background-repeat:no-repeat;
+	color:#a5c41e;
+}
+
+
+#newsletter{
+	padding:15px;
+	background-color:#218365;
+	color:#fff;
+}
+
+#newsletter h1{
+	float:left;
+}
+
+#newsletter form{
+	float:right;
+	margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+	padding:5px;
+	height:25px;
+	width:250px;
+}
+
+.btn{
+	background-color:#a5c41e;
+	border:none;
+	color:#fff;
+	height:38px;
+	padding:0 20px;
+}
+
+#boxes{
+	margin-top:30px;
+}
+
+#boxes .box{
+	width:33.3%;
+	float:left;
+	padding:10px;
+	text-align:center;
+	box-sizing:border-box;
+}
+
+.box img{
+	width:311px;
+}
+
+article.main-bar{
+	float:left;
+	width:65%;
+}
+aside.side-bar{
+	float:right;
+	width:33%;
+	margin-top:28px;
+}
+
+ul#services li{
+	list-style:none;
+	padding:20px;
+	border:1px solid #ccc;
+	background-color:#e6e6e6;
+	margin-bottom:5px;
+}
+
+#quote input, #quote textarea{
+	
+	width:90%;
+	padding:5px;
+}
+
+#in_cart{
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+  left: 68%;
+  top: 5%;
+  text-align: center;
+  background: rgb(255, 0, 0);
+  opacity: 0;
+}
+
+.dark{
+	margin-top:30px;
+}
+
+.slider-row{
+	width: 90%;
+	height: 220px;
+	margin: 50px;
+	position: relative;
+}
+
+footer{
+	padding:20px;
+	background-color:#218365;
+	color:#fff;
+	text-align:center;
+	margin-top:20px;
+}
+
+#edit{
+	padding:51px;
+	width: 30%;
+	border-radius: 20px;
+	margin-top: 20%;
+}
+
+#cart{
+	padding-left:138px;
+	margin-top:-15px;
+}
+
+#product_heading{
+	float: left;
+	display:inline;
+	padding: 20px;
+	margin-top:0px;
+}
+.images{
+	width: 90%;
+	position: absolute;
+	left: 5%;
+	height: 250px;
+	margin: 0px;
+}
+#left{
+	position: absolute;
+	left: 0%;
+	top: 45%;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+#right{
+	position: absolute;
+	right: 0%;
+	top: 45%;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	border-radius: 10px;;
+	margin-bottom: 80px;
+  }
+
+  #need_help h1{
+	float:left;
+	padding: 11px 66px;
+}
+
+#need_help {
+	padding-left:411px;
+	height:71px;
+	width:1050px;
+}
+
+
+#pay_details{
+	padding-bottom:11px;
+}
+
+.pay{
+	margin-left:149px;
+}
+
+#unique{
+	padding-left:131px;
+}
+
+.margin{
+	padding-left: 200px;
+	position: relative;
+	height: 80px;
+}
+.margin2{
+	position: absolute;
+	top:63%;
+	left: 30%;
+}
+.margin3{
+	position: absolute;
+	top:63%;
+	left: 50.65%;
+}
+#special{
+	margin-top:25px;
+}
+
+#move_left{
+	padding-left: 311px;
+	position: absolute;
+	padding-right:61px;
+}
+.bars{
+	width: 160px;
+	padding: 10px;
+	text-align: left;
+	background:rgb(165, 196, 30) ;
+	color: white;
+	border-radius: 10px;
+	border: 2px solid white ;
+	
+}
+.current{
+ background: white;
+ border:2px solid rgb(165, 196, 30) ;
+}
+.white{
+	color: white;
+	text-decoration: none;
+}
+.btn{
+	cursor: pointer;
+}
+.text_jugar{
+	color: tomato;
+	font-size: small;
+}
+

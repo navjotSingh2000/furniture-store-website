@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Home Page | Welcome</title>
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">
+	</head>
+	<body>
+	
+		<!-- header section -->
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1><span class="high-light">IND-Furnitures</span> Corp.</h1>
+				</div>
+				<nav>
+					<ul>
+						<li>
+							<a href="./index.html">Home</a>
+                        </li>
+                        <li class="current">
+							<a href="products.html">Products</a>
+                        </li>
+                        <li>
+							<a href="cart.html">Cart</a>
+						</li>
+						<li>
+							<a href="./aboutUs.html">About Us</a>
+						</li>
+						<li>
+							<a href="./contactUs.html">Contact Us</a>
+						</li>
+					
+					</ul>
+				
+				</nav>
+			
+            </div>
+		</header>
+	
+		<!-- newsletter section -->
+		<section id="newsletter">
+			<div class="container">
+				<h1>Subscribe to Our Newsletter</h1>
+				<form>
+					<input type="email" placeholder="Enter Your Email ...">
+					<input type="submit" value="Subscribe" class="btn">
+				</form>
+            </div>
+            
+        </section>
+        
+         <!-- Slider starts here -->
+    <div class="slider-row">
+        <img src="media/scroll_1.jpg" class="images " alt="" id="first" style="background-size: cover;">
+        <img src="media/scroll_2.jpg" class="images " alt="">
+        <img src="media/scroll_3.jpg" class="images" alt="">
+        <img src="media/scroll_4.jpg" class="images" alt="">
+        <img src="media/scroll_5.jpg" class="images " alt="">
+        <button id="left" class="flash" onclick="plusDivs(-1)">&#10094;</button>
+        <button id="right" class="flash2" onclick="plusDivs(+1)">&#10095;</button>
+      </div>
+      <!-- Slider ends here -->
+        <!--Description design-->
+        
+
+       
+		
+        <!--Help Section-->
+        <section id="need_help">
+			<div class="container">
+				<h1>Have any Questions?</h1>
+			    <input id="special" href="./contactUs.html" type="button" value="Contact Us" class="btn">   
+            </div>
+        </section>
+
+		<!-- footer section -->
+		<footer>
+			<p>IND-Furnitures Corp. - Copyright &copy; All rights reserved</p>
+		</footer>
+        <script src="js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+	</body>
+
+
+</html>

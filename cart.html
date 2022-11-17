@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Home Page | Welcome</title>
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">
+	</head>
+	<body>
+	
+		<!-- header section -->
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1><span class="high-light">IND-Furnitures</span> Corp.</h1>
+				</div>
+				<nav>
+					<ul>
+						<li>
+							<a href="./index.html">Home</a>
+                        </li>
+                        <li>
+							<a href="products.html">Products</a>
+                        </li>
+                        <li class="current">
+                            <div id="in_cart"></div>
+							<a href="cart.html">Cart</a>
+						</li>
+						<li>
+							<a href="./aboutUs.html">About Us</a>
+						</li>
+						<li>
+							<a href="./contactUs.html">Contact Us</a>
+						</li>
+					
+					</ul>
+				
+				</nav>
+			
+            </div>
+		</header>
+	
+		<!-- newsletter section -->
+		<section id="newsletter">
+			<div class="container">
+				<h1>Subscribe to Our Newsletter</h1>
+				<form>
+					<input type="email" placeholder="Enter Your Email ...">
+					<input type="submit" value="Subscribe" class="btn">
+				</form>
+            </div>
+            
+        </section>
+        <!--Payment Section-->
+        <div class="text_jugar">*(you can access the cart after adding the payment option)</div>
+        <section id="listings">
+            <div class="container">
+                <table class="pay">
+                    <th>
+                        <td class="high-light">
+                            <h1>Personal Details</h1>
+                        </td>
+                    </th>
+                    <tr>
+                        <td class="dark">
+                            First Name :
+                            <input type="text" placeholder="First Name" id="name">
+                        </td>
+                        <td class="dark">
+                            Last Name :
+                            <input type="text" placeholder="Last Name">                        </td>
+
+                        <td class="dark">
+                            Mobile :
+                            <input type="text" placeholder="Mobile Number">
+                        </td>
+                    </tr>
+                    <th>
+                        <td class="high-light">
+                            <h1>Payment Options</h1>
+                        </td>
+                    </th>
+                    <tr>
+                        <td class="dark">
+                            Card Type :
+                            <select>
+                            <option value="0" >Select</option>
+                            <option value="1" >Master Card</option>
+                            <option value="2" >Visa</option>
+                        </select>
+
+                        </td>
+                        <td class="dark">
+                            Card Number :
+                            <input type="text" placeholder="XXXX XXXX XXXX XXXX">
+                        </td>
+                        <td class="dark">
+                            Expiry Date :
+                            <input type="month" placeholder="XX/XX">
+                        </td>
+                    </tr>
+                        <tr class="margin" >
+                            <td class=" margin2">
+                            </td>
+                            <td class=" margin3">
+                            </td>
+                        </tr>
+                    <tr id="move_left">
+                        <td >
+                            <input type="button" class="btn" value="Submit" onclick="validate()">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+<br><br><br><br><br>
+       
+		
+         <!--Help Section-->
+         <section id="need_help">
+			<div class="container">
+                <h1>Have any Questions?</h1>
+                <a href="./contactUs.html">
+                <input id="special" type="button" value="Contact Us" class="btn">   
+            </a>
+            </div>
+        </section>
+
+		<!-- footer section -->
+		<footer>
+			<p>IND-Furnitures Corp. - Copyright &copy; All rights reserved</p>
+		</footer>
+        <script src="js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+	</body>
+
+
+</html>
