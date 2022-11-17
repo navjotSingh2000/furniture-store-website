@@ -1,0 +1,19 @@
+{
+  "name": "furniture-store-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navjotSingh2000/furniture-store-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navjotSingh2000/furniture-store-website/issues"
+  },
+  "homepage": "https://github.com/navjotSingh2000/furniture-store-website#readme"
+}
